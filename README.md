@@ -1,5 +1,7 @@
 # ACA-HW09-Array-methods
+
 exercises about array methods
+
 # 1. Concate Arrays
 
 - the two arrays.
@@ -27,3 +29,19 @@ and return an array of numbers as per the following rules:
 Your function must use map method.
 
 [04.mapMethod.js](04.mapMethod.js)
+
+# 5. Implementation of forEach method.
+
+[05.forEachimplem.js](05.forEachimplem.js)
+
+# 6. Implementation of Map method
+
+[06.mapImplementation.js](06.mapImplementation.js)
+
+# 7. Implementation of Reduce method
+
+[07.ReduceImplementation.js](07.ReduceImplementation.js)
+
+# 8. Implementation of Slice method
+
+[08.SliceImplementation.js](08.SliceImplementation.js)
