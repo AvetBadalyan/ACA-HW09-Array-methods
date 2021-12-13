@@ -6,14 +6,14 @@ function fakeSlice(arr, beginning, end) {
   let slicedArr = [];
   if (end === undefined) {
     end = arr.length;
-  }
-  if (typeof start === "number" && typeof end === "number") {
-    for (let i = beginning; i < end; i++) {
-      slicedArr.push(arr[i]);
+  } else if (end !== undefined) {
+    if (typeof beginning === "number" && typeof end === "number") {
+      for (let i = beginning; i < end; i++) {
+        slicedArr.push(arr[i]);
+      }
+    } else if (isNaN(beginning) || isNaN(end)) {
+      return ` the input is not a number`;
     }
-    return slicedArr;
-  } else if (isNaN(beginning) || isNaN(end)) {
-    console.log(` the input is not a number`);
   }
   return slicedArr;
 }
